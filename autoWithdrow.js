@@ -38,7 +38,7 @@ class Plugin {
   
   
   giftPlanet = (planet) => {
-      let value = 'Krafstof'
+      let value = 'FundMinato'
       let player = ui.getAllPlayers().find(player => {
         return player.address === value || player.twitter === value;
       });
